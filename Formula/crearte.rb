@@ -1,8 +1,8 @@
 class Crearte < Formula
   desc "Generative graphical music score tool"
   homepage "https://github.com/Uchida16104/Crearte"
-  url "https://github.com/Uchida16104/Crearte/releases/download/v2.6.0/crearte.tar.gz"
-  sha256 "52e781242bc0750253c856c565bf231d22e3a608e51fa2b1c2e743e6eaf5a2ff"
+  url "https://github.com/Uchida16104/Crearte/releases/download/v2.7.0/crearte.tar.gz"
+  sha256 "1ba1a579edbc300e901352484590ba960317b7ca93059cb61e3a066daf140651"
   license "MIT"
   def install
     bin.install "scripts/crearte-cli.sh" => "crearte"
